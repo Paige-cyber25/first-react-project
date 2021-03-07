@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
+import Topnav from './components/TopNav/TopNav';
+import Topsection from './components/TopSection/TopSection';
+import TopPhotoCard from './components/TopPhotoCard/TopPhotoCard';
+import MidPhotoCard from './components/MidPhotoCard/MidPhotoCard';
 import './App.css';
+import BottomPhotoCard from './components/BottomPhotoCard/BottomPhotoCard';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Topnav />
+     <Topsection />
+     <TopPhotoCard />
+     <MidPhotoCard />
+     <BottomPhotoCard />
     </div>
   );
 }

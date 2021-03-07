@@ -1,0 +1,25 @@
+.top-nav {
+    background-color: #DE3334;
+    padding: .2px; 
+    margin-bottom: 1em;
+}
+
+.header1, a, .paragraph1 {
+    color: #fff;
+    text-align: center;
+}
+
+.header {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+ }
+
+ .paragraph1 {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 3.7em ;
+}
+
+.navbar2 {
+   display: grid;
+}

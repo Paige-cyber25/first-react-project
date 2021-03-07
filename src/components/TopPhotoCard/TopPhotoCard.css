@@ -1,0 +1,28 @@
+.header {
+    margin-bottom: 3em;
+}
+.header2 {
+    margin-bottom: 3em;
+    font-size: 28px;
+    font-family:'Noto Sans', sans-serif;
+    font-weight: 600;
+}
+.TopPhotoCard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    grid-auto-rows: auto;
+    gap: 20px;
+    margin-right: 10px;
+}
+
+.TopPhotoCard, img  {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+p {
+    font-size: 14px;
+    color: #5F6368;
+    font-family: 'Roboto', sans-serif;
+}
