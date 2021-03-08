@@ -1,7 +1,7 @@
 .top-container {
     display: grid;
     width: 100%;
-    grid-template-columns: 500px repeat(2, 250px) repeat(2, 100px) ;
+    grid-template-columns: 400px repeat(2, 250px) repeat(2, 100px) ;
     justify-content: center;
     align-items: center;
     cursor: pointer;
@@ -22,7 +22,7 @@
 } 
 
 .item3 {
-  padding-right: 700px;
+  padding-right: 500px;
    color: #DE3536;
 }
 
